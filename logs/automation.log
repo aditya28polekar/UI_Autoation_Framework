@@ -1,0 +1,25 @@
+2025-08-28 15:44:46 [main] INFO ui.listners.TestListener Test Suite Started 
+2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-08-28 15:45:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login PASSED 
+2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-08-28 15:45:47 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
+2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-08-28 15:46:31 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
+2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-08-28 15:47:30 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
+2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] ERROR ui.tests.ecommerce.LoginTest login FAILED 
+2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] ERROR ui.tests.ecommerce.LoginTest expected [Adi boss] but found [Jatin Sharma] 
+2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest Capturing Screenshot for the failed tests 
+2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest Attaching the Screenshot to the HTML File 
+2025-08-28 15:48:13 [main] INFO ui.listners.TestListener Test Suite Completed 
