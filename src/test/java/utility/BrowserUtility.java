@@ -102,7 +102,7 @@ public abstract class BrowserUtility {
         String timeStamp = format.format(date);
         String path;
 
-        path = "../resources/screenshot" + name + "-" + timeStamp + ".png";
+        path = "../resources/screenshot/" + name + "-" + timeStamp + ".png";
         try {
             FileUtils.copyFile(screenShot , new File(path));
         } catch (IOException e) {
