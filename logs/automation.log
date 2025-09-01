@@ -1,25 +1,38 @@
-2025-08-28 15:44:46 [main] INFO ui.listners.TestListener Test Suite Started 
-2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
-2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
-2025-08-28 15:45:19 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
-2025-08-28 15:45:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login PASSED 
-2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
-2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
-2025-08-28 15:45:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
-2025-08-28 15:45:47 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
-2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
-2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
-2025-08-28 15:46:26 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
-2025-08-28 15:46:31 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
-2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
-2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
-2025-08-28 15:47:25 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
-2025-08-28 15:47:30 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
-2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
-2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
-2025-08-28 15:48:08 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
-2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] ERROR ui.tests.ecommerce.LoginTest login FAILED 
-2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] ERROR ui.tests.ecommerce.LoginTest expected [Adi boss] but found [Jatin Sharma] 
-2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest Capturing Screenshot for the failed tests 
-2025-08-28 15:48:12 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest Attaching the Screenshot to the HTML File 
-2025-08-28 15:48:13 [main] INFO ui.listners.TestListener Test Suite Completed 
+2025-09-02 01:45:37 [main] INFO ui.listners.TestListener Test Suite Started 
+2025-09-02 01:45:37 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest starting initializeLambdaTestSession isLambdaTest true 
+2025-09-02 01:46:32 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest executed initializeLambdaTestSession isLambdaTest true now going to homepage 
+2025-09-02 01:46:32 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in BrowserUtility constructor setting driver 
+2025-09-02 01:46:32 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in the home page constructor 
+2025-09-02 01:46:40 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-09-02 01:46:40 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-09-02 01:46:40 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-09-02 01:46:40 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage clicking on locator 
+2025-09-02 01:46:42 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage locator clicked 
+2025-09-02 01:46:42 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.LoginPage in BrowserUtility constructor setting driver 
+2025-09-02 01:46:44 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.AccountsPage in BrowserUtility constructor setting driver 
+2025-09-02 01:46:44 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login PASSED 
+2025-09-02 01:46:45 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest starting initializeLambdaTestSession isLambdaTest true 
+2025-09-02 01:46:57 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest executed initializeLambdaTestSession isLambdaTest true now going to homepage 
+2025-09-02 01:46:57 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in BrowserUtility constructor setting driver 
+2025-09-02 01:46:57 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in the home page constructor 
+2025-09-02 01:47:03 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-09-02 01:47:03 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-09-02 01:47:03 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-09-02 01:47:03 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage clicking on locator 
+2025-09-02 01:47:04 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage locator clicked 
+2025-09-02 01:47:04 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.LoginPage in BrowserUtility constructor setting driver 
+2025-09-02 01:47:06 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.AccountsPage in BrowserUtility constructor setting driver 
+2025-09-02 01:47:06 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
+2025-09-02 01:47:07 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest starting initializeLambdaTestSession isLambdaTest true 
+2025-09-02 01:47:39 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest executed initializeLambdaTestSession isLambdaTest true now going to homepage 
+2025-09-02 01:47:39 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in BrowserUtility constructor setting driver 
+2025-09-02 01:47:39 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage in the home page constructor 
+2025-09-02 01:47:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest login 
+2025-09-02 01:47:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest verfify login of users 
+2025-09-02 01:47:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest [e2e, sanity] 
+2025-09-02 01:47:41 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage clicking on locator 
+2025-09-02 01:47:45 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.HomePage locator clicked 
+2025-09-02 01:47:45 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.LoginPage in BrowserUtility constructor setting driver 
+2025-09-02 01:47:47 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.pages.ecommerce.AccountsPage in BrowserUtility constructor setting driver 
+2025-09-02 01:47:47 [TestNG-test-UI Automation Test Ecommerce-1] WARN ui.tests.ecommerce.LoginTest login SKIPPED 
+2025-09-02 01:47:48 [TestNG-test-UI Automation Test Ecommerce-1] INFO ui.tests.ecommerce.LoginTest starting initializeLambdaTestSession isLambdaTest true 

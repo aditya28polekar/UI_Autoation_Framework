@@ -2,6 +2,7 @@ package utility;
 
 import constants.Browser;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,9 +20,11 @@ import java.util.Date;
 
 public abstract class BrowserUtility {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+    Logger logger = LoggerUtlity.getLogger(this.getClass());
     private Wait wait;
 
     protected BrowserUtility(WebDriver driver){
+        logger.info("in BrowserUtility constructor setting driver");
         this.driver.set(driver);
         wait = new WebDriverWait(this.driver.get() , Duration.ofSeconds(30L));
     }
