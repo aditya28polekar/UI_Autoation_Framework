@@ -56,7 +56,7 @@ jobs:
       run: |
         mkdir -p public/extent-reports
         cp -R src/test/resources/test-reports/report.html  public/extent-reports/
-        mkdir -p public/extent-reports/src/test/resources/screenshot/
+        mkdir -p public/extent-reports/src/test/resources/
         cp -R src/test/resources/screenshot/ public/extent-reports/src/test/resources/screenshot/
         ls -l
 
