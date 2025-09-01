@@ -2,7 +2,7 @@
   "environments": {
     "QA": {
       "url": "http://www.automationpractice.pl",
-      "MAX_NUMBER_OF_ATTEMPTS" : 3
+      "MAX_NUMBER_OF_ATTEMPTS" : 1
     },
     "UAT": {
       "url": "http://www.automationpractice.pl",
