@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 143.3 s <<< FAILURE! -- in TestSuite
-ui.tests.ecommerce.LoginTest.login[User [emailAddress=bakomam596@skrak.com, password=password]](3) -- Time elapsed: 3.618 s <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 187.1 s <<< FAILURE! -- in TestSuite
+ui.tests.ecommerce.LoginTest.login[User [emailAddress=bakomam596@skrak.com, password=password]](4) -- Time elapsed: 7.024 s <<< FAILURE!
 java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

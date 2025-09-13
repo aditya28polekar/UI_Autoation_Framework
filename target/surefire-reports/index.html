@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,  2 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -117,6 +117,11 @@
                     <div class="method-list-content skipped suite-Automation_Practice_Test_Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Practice_Test_Suite" title="ui.tests.ecommerce.LoginTest" class="method navigator-link" hash-for-method="login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])">login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Automation_Practice_Test_Suite" title="ui.tests.ecommerce.LoginTest" class="method navigator-link" hash-for-method="login(User [emailAddress=bakomam596@skrak.com, password=password])">login(User [emailAddress=bakomam596@skrak.com, password=password])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -132,6 +137,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Automation_Practice_Test_Suite" title="ui.tests.ecommerce.LoginTest" class="method navigator-link" hash-for-method="login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])">login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Practice_Test_Suite" title="ui.tests.ecommerce.InvalidLoginTest" class="method navigator-link" hash-for-method="loginInvalid">loginInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Practice_Test_Suite" title="ui.tests.ecommerce.ProductSearchTest" class="method navigator-link" hash-for-method="searchElementTest">searchElementTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_Practice_Test_Suite -->
@@ -181,6 +196,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])">
+                  </a> <!-- login(User [emailAddress=gojat62999@cronack.com, password=passpgpass]) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(User [emailAddress=gojat62999@cronack.com, password=passpgpass])</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&quot;Sign&quot;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97c26335d77bdee40d7dac96ed2b9e67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utility.BrowserUtility.clickOn(BrowserUtility.java:86)
+	at ui.pages.ecommerce.HomePage.goToLoginPage(HomePage.java:33)
+	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verfify login of users)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="login(User [emailAddress=bakomam596@skrak.com, password=password])">
                   </a> <!-- login(User [emailAddress=bakomam596@skrak.com, password=password]) -->
                   <span class="method-name">login</span>
@@ -200,6 +243,40 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Practice_Test_Suite-class-skipped -->
+          <div class="suite-Automation_Practice_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ui.tests.ecommerce.ProductSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchElementTest">
+                  </a> <!-- searchElementTest -->
+                  <span class="method-name">searchElementTest</span>
+                  <em>
+(Verify if user is able to search products and correct serach results are displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_Test_Suite-class-passed -->
+          <div class="suite-Automation_Practice_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ui.tests.ecommerce.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInvalid">
+                  </a> <!-- loginInvalid -->
+                  <span class="method-name">loginInvalid</span>
+                  <em>
+(verify proper error message is shown if user enters invalid creds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Practice_Test_Suite-class-passed -->
           <div class="suite-Automation_Practice_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -234,6 +311,8 @@
     &lt;parameter name=&quot;isLambdaTest&quot; value=&quot;true&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;ui.tests.ecommerce.LoginTest&quot;/&gt;
+      &lt;class name=&quot;ui.tests.ecommerce.InvalidLoginTest&quot;/&gt;
+      &lt;class name=&quot;ui.tests.ecommerce.ProductSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- UI Automation Test Ecommerce --&gt;
 &lt;/suite&gt; &lt;!-- Automation Practice Test Suite --&gt;
@@ -247,7 +326,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">UI Automation Test Ecommerce (1 class)</span>
+                <span class="test-name">UI Automation Test Ecommerce (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,12 +343,28 @@
                 <span class="method-in-group-name">login</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginInvalid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchElementTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginInvalid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchElementTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -289,24 +384,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'ui.tests.ecommerce.LoginTest')
-data.setCell(0, 3, 3927);
+data.setCell(0, 3, 30432);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'ui.tests.ecommerce.LoginTest')
-data.setCell(1, 3, 3619);
+data.setCell(1, 3, 7022);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'ui.tests.ecommerce.LoginTest')
-data.setCell(2, 3, 3532);
+data.setCell(2, 3, 5331);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'ui.tests.ecommerce.LoginTest')
+data.setCell(3, 3, 5297);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginInvalid')
+data.setCell(4, 2, 'ui.tests.ecommerce.InvalidLoginTest')
+data.setCell(4, 3, 4203);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchElementTest')
+data.setCell(5, 2, 'ui.tests.ecommerce.ProductSearchTest')
+data.setCell(5, 3, 2826);
 window.suiteTableData['Automation_Practice_Test_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Practice_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-Automation_Practice_Test_Suite">
               </div> <!-- times-div-Automation_Practice_Test_Suite -->
             </div> <!-- times-div -->
@@ -332,44 +439,102 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=InvalidLoginTest.loginInvalid()[p...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=ProductSearchTest.searchElementTe...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">ui.tests.ecommerce.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=LoginTest.login(ui.pojo.ecommerce...)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">115 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])</span>
-                <span class="method-start">42412 ms</span>
+                <span class="method-start">46433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginInvalid</span>
+                <span class="method-start">57838 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46346 ms</span>
+                <span class="method-start">62047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76870 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=LoginTest.login(ui.pojo.ecommerce...)</span>
-                <span class="method-start">46989 ms</span>
+                <span class="method-start">77532 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login(User [emailAddress=bakomam596@skrak.com, password=password])</span>
-                <span class="method-start">86766 ms</span>
+                <span class="method-name">login(User [emailAddress=gojat62999@cronack.com, password=passpgpass])</span>
+                <span class="method-start">95378 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90300 ms</span>
+                <span class="method-start">100712 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=LoginTest.login(ui.pojo.ecommerce...)</span>
-                <span class="method-start">90986 ms</span>
+                <span class="method-start">101429 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">112309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchElementTest</span>
+                <span class="method-start">117246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">120073 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.tests.ecommerce.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login(User [emailAddress=bakomam596@skrak.com, password=password])</span>
+                <span class="method-start">153537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, true, false, [TestResult name={null} status=CREATED method=LoginTest.login(ui.pojo.ecommerce...)</span>
+                <span class="method-start">159523 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login(User [emailAddress=bakomam596@skrak.com, password=password])</span>
-                <span class="method-start">136841 ms</span>
+                <span class="method-start">176069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">140842 ms</span>
+                <span class="method-start">183878 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

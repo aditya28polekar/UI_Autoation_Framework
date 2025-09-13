@@ -1,0 +1,3 @@
+ui\tests\ecommerce\ProductSearchTest.class
+ui\tests\ecommerce\InvalidLoginTest.class
+ui\pages\ecommerce\SearchResultPage.class

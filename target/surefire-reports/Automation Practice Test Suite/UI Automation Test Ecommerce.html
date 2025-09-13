@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UI Automation Test Ecommerce</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 02 02:44:57 IST 2025</td>
+<td>Started on:</td><td>Sat Sep 13 13:00:55 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>141 seconds (141914 ms)</td>
+<tr><td>Total time:</td><td>184 seconds (184989 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -84,8 +84,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace623933445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace623933445'><pre>java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407717879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1407717879'><pre>java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -110,8 +110,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>3</td>
-<td>ui.tests.ecommerce.LoginTest@7d898981</td></tr>
+<td>7</td>
+<td>ui.tests.ecommerce.LoginTest@14f9390f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -124,8 +124,18 @@ function toggleAllBoxes() {
 <tr>
 <td title='ui.tests.ecommerce.LoginTest.login()'><b>login</b><br>Test class: ui.tests.ecommerce.LoginTest<br>Test method: verfify login of users<br>Parameters: User [emailAddress=gojat62999@cronack.com, password=passpgpass]</td>
 <td></td>
-<td>3</td>
-<td>ui.tests.ecommerce.LoginTest@7d898981</td></tr>
+<td>5</td>
+<td>ui.tests.ecommerce.LoginTest@14f9390f</td></tr>
+<tr>
+<td title='ui.tests.ecommerce.InvalidLoginTest.loginInvalid()'><b>loginInvalid</b><br>Test class: ui.tests.ecommerce.InvalidLoginTest<br>Test method: verify proper error message is shown if user enters invalid creds</td>
+<td></td>
+<td>4</td>
+<td>ui.tests.ecommerce.InvalidLoginTest@768fc0f2</td></tr>
+<tr>
+<td title='ui.tests.ecommerce.ProductSearchTest.searchElementTest()'><b>searchElementTest</b><br>Test class: ui.tests.ecommerce.ProductSearchTest<br>Test method: Verify if user is able to search products and correct serach results are displayed</td>
+<td></td>
+<td>2</td>
+<td>ui.tests.ecommerce.ProductSearchTest@20c0a64d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -136,6 +146,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='ui.tests.ecommerce.LoginTest.login()'><b>login</b><br>Test class: ui.tests.ecommerce.LoginTest<br>Test method: verfify login of users<br>Parameters: User [emailAddress=gojat62999@cronack.com, password=passpgpass]</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&quot;Sign&quot;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97c26335d77bdee40d7dac96ed2b9e67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utility.BrowserUtility.clickOn(BrowserUtility.java:86)
+	at ui.pages.ecommerce.HomePage.goToLoginPage(HomePage.java:33)
+	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8124121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8124121'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&quot;Sign&quot;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97c26335d77bdee40d7dac96ed2b9e67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utility.BrowserUtility.clickOn(BrowserUtility.java:86)
+	at ui.pages.ecommerce.HomePage.goToLoginPage(HomePage.java:33)
+	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>30</td>
+<td>ui.tests.ecommerce.LoginTest@14f9390f</td></tr>
+<tr>
 <td title='ui.tests.ecommerce.LoginTest.login()'><b>login</b><br>Test class: ui.tests.ecommerce.LoginTest<br>Test method: verfify login of users<br>Parameters: User [emailAddress=bakomam596@skrak.com, password=password]</td>
 <td><div><pre>java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
@@ -144,8 +203,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace672274301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace672274301'><pre>java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1010651856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1010651856'><pre>java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -170,8 +229,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>3</td>
-<td>ui.tests.ecommerce.LoginTest@7d898981</td></tr>
+<td>5</td>
+<td>ui.tests.ecommerce.LoginTest@14f9390f</td></tr>
 </table><p>
 </body>
 </html>

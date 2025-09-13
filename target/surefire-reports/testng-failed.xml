@@ -10,7 +10,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="login" invocation-numbers="1"/>
+          <include name="login" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- ui.tests.ecommerce.LoginTest -->
     </classes>

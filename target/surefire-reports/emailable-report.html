@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Automation Practice Test Suite</th></tr>
-<tr><td><a href="#t0">UI Automation Test Ecommerce</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">141,914</td><td></td><td></td></tr>
+<tr><td><a href="#t0">UI Automation Test Ecommerce</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">184,989</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practice Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">UI Automation Test Ecommerce &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ui.tests.ecommerce.LoginTest</td><td><a href="#m0">login</a></td><td rowspan="1">1756761435033</td><td rowspan="1">3619</td></tr><tr><th colspan="4">UI Automation Test Ecommerce &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">ui.tests.ecommerce.LoginTest</td><td><a href="#m1">login</a></td><td rowspan="1">1756761384958</td><td rowspan="1">3532</td></tr><tr><th colspan="4">UI Automation Test Ecommerce &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ui.tests.ecommerce.LoginTest</td><td><a href="#m2">login</a></td><td rowspan="1">1756761340604</td><td rowspan="1">3927</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practice Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">UI Automation Test Ecommerce &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ui.tests.ecommerce.LoginTest</td><td><a href="#m0">login</a></td><td rowspan="1">1757748832360</td><td rowspan="1">7022</td></tr><tr><th colspan="4">UI Automation Test Ecommerce &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">ui.tests.ecommerce.LoginTest</td><td><a href="#m1">login</a></td><td rowspan="2">1757748702724</td><td rowspan="2">30432</td></tr><tr class="retriedeven"><td><a href="#m2">login</a></td></tr><tr><th colspan="4">UI Automation Test Ecommerce &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ui.tests.ecommerce.InvalidLoginTest</td><td><a href="#m3">loginInvalid</a></td><td rowspan="1">1757748714129</td><td rowspan="1">4203</td></tr><tr class="passedodd"><td rowspan="1">ui.tests.ecommerce.LoginTest</td><td><a href="#m4">login</a></td><td rowspan="1">1757748751669</td><td rowspan="1">5331</td></tr><tr class="passedeven"><td rowspan="1">ui.tests.ecommerce.ProductSearchTest</td><td><a href="#m5">searchElementTest</a></td><td rowspan="1">1757748773537</td><td rowspan="1">2826</td></tr></tbody>
 </table>
 <h2>UI Automation Test Ecommerce</h2><h3 id="m0">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=bakomam596@skrak.com, password=password]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
@@ -21,7 +21,24 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=bakomam596@skrak.com, password=password]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
+<h3 id="m1">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=gojat62999@cronack.com, password=passpgpass]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&quot;Sign&quot;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97c26335d77bdee40d7dac96ed2b9e67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utility.BrowserUtility.clickOn(BrowserUtility.java:86)
+	at ui.pages.ecommerce.HomePage.goToLoginPage(HomePage.java:33)
+	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=bakomam596@skrak.com, password=password]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Adi boss] but found [Jatin Sharma]
 	at ui.tests.ecommerce.LoginTest.login(LoginTest.java:15)
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
@@ -29,6 +46,8 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=gojat62999@cronack.com, password=passpgpass]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ui.tests.ecommerce.InvalidLoginTest#loginInvalid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ui.tests.ecommerce.LoginTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User [emailAddress=gojat62999@cronack.com, password=passpgpass]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ui.tests.ecommerce.ProductSearchTest#searchElementTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
