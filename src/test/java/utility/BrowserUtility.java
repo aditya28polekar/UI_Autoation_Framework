@@ -16,7 +16,9 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public abstract class BrowserUtility {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
@@ -89,10 +91,50 @@ public abstract class BrowserUtility {
         WebElement element = driver.get().findElement(locator);
         element.sendKeys(textToEnter);
     }
+    public void enterSpecialKey(By locator, Keys keyToEnter) {
+        //logger.info("Finding Element with the locator" + locator);
+
+        WebElement element = (WebElement) wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
+        //logger.info("Element Found and now enter special Key " + keyToEnter);
+
+        element.sendKeys(keyToEnter);
+    }
 
     protected String getTextFromLocator(By locator){
         WebElement element = driver.get().findElement(locator);
         return element.getText();
+    }
+    public String getTextFromLocator(WebElement element) {
+
+        //logger.info("Returning the visibile Text" + element.getText());
+
+        return element.getText();
+    }
+
+    public List<String> getAllTextsFromLocator(By locator) {
+        //logger.info("Finding All Elements with the locator" + locator);
+
+        List<WebElement> elementList = driver.get().findElements(locator);
+        //logger.info("Elements Found and now printing the List of Elements");
+        List<String> visibleTextList = new ArrayList<String>();
+        for (WebElement element : elementList) {
+            System.out.println(getTextFromLocator(element));
+            visibleTextList.add(getTextFromLocator(element));
+        }
+
+        return visibleTextList;
+
+    }
+
+    public List<WebElement> getAllElements(By locator) {
+        //logger.info("Finding All Elements with the locator" + locator);
+
+        List<WebElement> elementList = driver.get().findElements(locator);
+        logger.info("Elements Found and now printing the List of Elements");
+
+        return elementList;
+
     }
 
     public String takeScreenShot(String name){
